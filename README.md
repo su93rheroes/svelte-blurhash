@@ -1,6 +1,7 @@
 # svelte-blurhash
-[svelte](https://svelte.dev/) components for [blurhash](https://github.com/woltapp/blurhash) 
+[svelte](https://svelte.dev/) components for [blurhash](https://github.com/woltapp/blurhash).
 
+lazy loading with a blurhash image.
 
 [Demo](https://h416.github.io/svelte-blurhash/demo/)
 
@@ -37,3 +38,7 @@ npm install --save blurhash svelte-blurhash
         fadeDelay={300}
         fadeDuration={600} />
 ```
+
+## Links
+* https://blurha.sh/
+* https://hat-tap.com/blog/posts/images-in-svelte-lazy-loading-with-placeholder/
