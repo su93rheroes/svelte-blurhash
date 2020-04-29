@@ -1,7 +1,1 @@
-import Blurhash from "./Blurhash.svelte";
-import BlurhashImage from "./BlurhashImage.svelte";
-
-export {
-    Blurhash,
-    BlurhashImage
-};
+export { default as default } from './BlurhashImage.svelte';

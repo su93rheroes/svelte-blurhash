@@ -1,7 +1,7 @@
 {
   "name": "svelte-blurhash",
   "description": "Blurhash implementation for svelte",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "license": "MIT",
   "author": "h416",
   "repository": {
@@ -20,9 +20,9 @@
     "@rollup/plugin-node-resolve": "^7.1.3",
     "rollup": "^1.32.1",
     "rollup-plugin-svelte": "^5.2.1",
-    "svelte": "^3.20.1"
+    "svelte": "^3.21.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "blurhash": "^1.1.3"
   },
   "keywords": [
