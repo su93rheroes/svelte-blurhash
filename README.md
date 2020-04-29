@@ -1,4 +1,14 @@
 # svelte-blurhash
+
+<p>
+  <a href="https://www.npmjs.com/package/svelte-blurhash">
+    <img src="https://img.shields.io/npm/v/svelte-blurhash.svg" alt="npm version">
+  </a>
+  <a href="https://github.com/h416/svelte-blurhash/blob/master/LICENSE">
+    <img src="https://img.shields.io/npm/l/svelte-blurhash.svg" alt="license">
+  </a>
+</p>
+
 [svelte](https://svelte.dev/) components for [blurhash](https://github.com/woltapp/blurhash).
 
 lazy loading with a blurhash image.
