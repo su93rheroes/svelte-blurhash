@@ -2,6 +2,8 @@
 [svelte](https://svelte.dev/) components for [blurhash](https://github.com/woltapp/blurhash) 
 
 
+[Demo](https://h416.github.io/svelte-blurhash/demo/)
+
 ## Install
 ```bash
 npm install --save blurhash svelte-blurhash

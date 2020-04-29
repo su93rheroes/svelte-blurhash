@@ -41,7 +41,7 @@
 </div>
 
 <div>
-<a href="https://github.com/h416/svelte-blurhash/example">source</a>
+<a href="https://github.com/h416/svelte-blurhash/tree/master/example">source</a>
 </div>
 <style>
   :global(img) {
