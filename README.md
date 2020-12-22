@@ -37,7 +37,7 @@ npm install --save blurhash svelte-blurhash
 ## Options
 
 * fadeDelay: fade animation delay. default 200(ms).
-* faceDuration: fade animation duration. default 500(ms).
+* fadeDuration: fade animation duration. default 500(ms).
 
 ```html
 <BlurhashImage
