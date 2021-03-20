@@ -21,7 +21,7 @@
 
 <VisibilityGuard let:hasBeenVisible>
   {#if hasBeenVisible}
-    <div class="relative">
+    <div style="position: relative">
       {#if !isFadeIn}
         <Blurhash {hash} {width} {height} />
       {:else}
@@ -39,9 +39,3 @@
     </div>
   {/if}
 </VisibilityGuard>
-
-<style>
-  .relative {
-    position: relative;
-  }
-</style>

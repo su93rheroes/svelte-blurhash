@@ -8,11 +8,10 @@
   export let width;
   export let height;
   export let fadeDuration = 500;
-  let loaded = false;
   let thisImage;
   onMount(() => {
     thisImage.onload = () => {
-      loaded = true;
+      thisImage.style.opacity = 1;
       dispatch("imageLoaded", { fadeDuration });
     };
   });
@@ -24,21 +23,7 @@
   {alt}
   {width}
   {height}
-  class:loaded
-  style="--transition: opacity {fadeDuration}ms;"
+  style="position: absolute;top: 0;left: 0;opacity: 0;--transition: opacity {fadeDuration}ms;"
   loading="lazy"
   decoding="async"
 />
-
-<style>
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: var(--transition);
-  }
-  img.loaded {
-    opacity: 1;
-  }
-</style>
