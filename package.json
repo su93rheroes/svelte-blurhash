@@ -20,7 +20,7 @@
     "@rollup/plugin-node-resolve": "^10.0.0",
     "rollup": "^2.3.4",
     "rollup-plugin-svelte": "^7.0.0",
-    "svelte": "^3.31.0"
+    "svelte": "^3.35.0"
   },
   "peerDependencies": {
     "blurhash": "^1.1.3"
