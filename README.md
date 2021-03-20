@@ -36,7 +36,6 @@ npm install --save blurhash svelte-blurhash
 ```
 ## Options
 
-* fadeDelay: fade animation delay. default 200(ms).
 * fadeDuration: fade animation duration. default 500(ms).
 
 ```html
@@ -45,10 +44,12 @@ npm install --save blurhash svelte-blurhash
         hash={"LEHV6nWB2yk8pyoJadR*.7kCMdnj"}
         width={269}
         height={173}
-        fadeDelay={300}
         fadeDuration={600} />
 ```
 
 ## Links
 * https://blurha.sh/
 * https://hat-tap.com/blog/posts/images-in-svelte-lazy-loading-with-placeholder/
+* https://css-tricks.com/lazy-loading-images-in-svelte/
+* https://github.com/donovanh/svelte-image-loading
+* https://www.industrialempathy.com/posts/image-optimizations/

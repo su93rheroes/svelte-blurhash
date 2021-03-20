@@ -1,6 +1,6 @@
 <script>
-  import { decode } from 'blurhash';
-  import { onMount } from 'svelte';
+  import { decode } from "blurhash";
+  import { onMount } from "svelte";
 
   export let hash;
   export let width = 100;
@@ -14,7 +14,7 @@
   onMount(() => {
     if (hash && canvas) {
       const pixels = decode(hash, resolutionX, resolutionY, punch);
-      const ctx = canvas.getContext('2d');
+      const ctx = canvas.getContext("2d");
       const imageData = ctx.createImageData(resolutionX, resolutionY);
       imageData.data.set(pixels);
       ctx.putImageData(imageData, 0, 0);
@@ -27,5 +27,6 @@
     bind:this={canvas}
     width={resolutionX}
     height={resolutionY}
-    style="width:100%;height:100%" />
+    style="width:100%;height:100%"
+  />
 </div>
