@@ -47,10 +47,7 @@ npm install --save blurhash svelte-blurhash
         fadeDuration={600} />
 ```
 
-
-```
 ## Picture Tag
-
 ```html
 <BlurhashPicture
                 src={"https://www.1-firststep.com/samplephp/jpg-webp-avif/image/1000.jpg"}
