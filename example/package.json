@@ -14,7 +14,7 @@
     "rollup-plugin-svelte": "^5.2.3",
     "rollup-plugin-terser": "^5.3.1",
     "svelte": "^3.35.0",
-    "svelte-blurhash": "^1.1.2"
+    "svelte-blurhash": "^1.2.0"
   },
   "dependencies": {
     "blurhash": "^1.1.3",
