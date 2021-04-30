@@ -47,6 +47,29 @@ npm install --save blurhash svelte-blurhash
         fadeDuration={600} />
 ```
 
+
+```
+## Picture Tag
+
+```html
+<BlurhashPicture
+                src={"https://www.1-firststep.com/samplephp/jpg-webp-avif/image/1000.jpg"}
+                hash={"LEHV6nWB2yk8pyoJadR*.7kCMdnj"}
+                width={320}
+                height={206}
+                fadeDuration={800}
+        >
+                <source
+                        srcset="https://www.1-firststep.com/samplephp/jpg-webp-avif/image/1000.webp"
+                        type="image/webp"
+                />
+                <source
+                        srcset="https://www.1-firststep.com/samplephp/jpg-webp-avif/image/1000.avif"
+                        type="image/avif"
+                />
+</BlurhashPicture>
+```
+
 ## Links
 * https://blurha.sh/
 * https://hat-tap.com/blog/posts/images-in-svelte-lazy-loading-with-placeholder/
