@@ -21,9 +21,9 @@
 
 <VisibilityGuard let:hasBeenVisible>
   {#if hasBeenVisible}
-    <div style="position: relative">
-      {#if !isFadeIn}
-        <Blurhash {hash} {width} {height} />
+    <div style="position: relative; height: 100%;">
+      {#if !isFadeIn && hash}
+        <Blurhash {hash} />
       {:else}
         <div style="width: {width}px;height: {height}px" />
       {/if}

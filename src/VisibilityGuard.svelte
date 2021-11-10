@@ -34,3 +34,9 @@
 <div bind:this={el}>
   <slot {visible} {hasBeenVisible} />
 </div>
+
+<style>
+  div {
+    height: 100%;
+  }
+</style>
