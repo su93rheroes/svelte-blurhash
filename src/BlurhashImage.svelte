@@ -25,7 +25,9 @@
       {#if !isFadeIn && hash}
         <Blurhash {hash} />
       {:else}
-        <div style="width: {width}px;height: {height}px" />
+        <div
+          style="width: {width}px;height: {height}px; max-width: 100%; max-height: 100%"
+        />
       {/if}
 
       <Image

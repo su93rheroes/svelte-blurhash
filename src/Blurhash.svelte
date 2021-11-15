@@ -20,11 +20,9 @@
   });
 </script>
 
-<canvas bind:this={canvas} width={resolutionX} height={resolutionY} />
-
-<style>
-  canvas {
-    width: 100%;
-    height: 100%;
-  }
-</style>
+<canvas
+  bind:this={canvas}
+  width={resolutionX}
+  height={resolutionY}
+  style="width: 100%; height: 100%;"
+/>

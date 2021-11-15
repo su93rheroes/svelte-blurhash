@@ -23,22 +23,7 @@
   {alt}
   {width}
   {height}
-  style="transition-duration: {fadeDuration}ms;"
   loading="lazy"
   decoding="async"
+  style="transition-duration: {fadeDuration}ms; position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 500ms; object-fit: cover; max-height: 100%; min-height: 100%; max-width: 100%; min-width: 100%;"
 />
-
-<style>
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 500ms;
-    object-fit: cover;
-    max-height: 100%;
-    min-height: 100%;
-    max-width: 100%;
-    min-width: 100%;
-  }
-</style>

@@ -31,12 +31,6 @@
   }
 </script>
 
-<div bind:this={el}>
+<div bind:this={el} style="height: 100%">
   <slot {visible} {hasBeenVisible} />
 </div>
-
-<style>
-  div {
-    height: 100%;
-  }
-</style>
